@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <div id="root" class="f-page">
+          <header class="f-page__header">
+            <div class="f-page__header-info inner">
+              <div class="f-page__header_left">
+                <a href="#">
+                  <svg class="f-page__logo-img">
+                    <use xlink:href="#logo_blue"></use>
+                  </svg>
+                </a>
+                <nav id="menu" class="f-page__nav">
+                  <ul class="f-menu" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li class="f-link__menu" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a itemprop="url" href="/home/">
+                      <svg class="icon">
+                        <use xlink:href="#essential"></use>
+                      </svg>
+                    </a>
+                    </li>
+                    <li class="f-link__menu" itemprop="itemListElement1" itemscope itemtype="http://schema.org/ListItem">
+                      <a itemprop="item" href="/">Шаг 1</a>
+                    </li>
+                    <li class="f-link__menu" itemprop="itemListElement2" itemscope itemtype="http://schema.org/ListItem">
+                      <a itemprop="item" href="/about">Шаг 2</a>
+                    </li>
+                    <li itemprop="item" class="f-link__menu f-link_menu_active" itemprop="itemListElement3" itemscope itemtype="http://schema.org/ListItem">
+                      <a href="/contacts">Шаг 3</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="f-page__header_right">
+               <div class="f-page__login">
+                <div class="f-page__burger">
+                  <span class="f-page__burger_item f-page__burger_top"></span>
+                  <span class="f-page__burger_item f-page__burger_mid"></span>
+                  <span class="f-page__burger_item f-page__burger_bot"></span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="36" viewBox="0 0 34 36" fill="none">
+                  <circle cx="17" cy="19" r="15" fill="#0D99E7"/>
+                  <circle cx="28" cy="6" r="5.5" fill="#FF385C" stroke="white"/>
+                  <mask id="mask0_68_61" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="6" width="26" height="26">
+                  <circle cx="17" cy="19" r="12.1875" fill="#737373"/>
+                  </mask>
+                  <g mask="url(#mask0_68_61)">
+                  <circle cx="17" cy="17.125" r="6.5625" fill="white"/>
+                  <circle cx="17" cy="33.0625" r="11.25" fill="white"/>
+                  </g>
+                </svg>
+               </div>
+              </div>
+            </div>
+          </header>
+          <main class="f-page__main">
+            <section class="f-page__swiper1">
+              <div class="f-page__section swiper swiper1 swiper-container">
+              <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="swiper1__text_box">
+                          <p class="swiper1__slide_text">FOOTBALL ACADEMY предлагает отличную возможность для начала карьеры в Испании молодым футболистам с 14 до 20 лет, поступив в Академию футбола высокого уровня с проживанием и обучением в общеобразовательной школе при спортивном интернате Академии в Паленсии. В Академии каждого ждет индивидуальный подход к таланту игрока и его развитию.</p>
+                          <p class="swiper1__slide_text">В футбольной Академии Palencia Football Academy предусмотрены две программы пребывания. Долгосрочная программа – это полноценное годовое обучение и краткосрочная программа – трехмесячный курс обучения.</p>
+                        </div>
+                        <span class="swiper1__slide_title">FOOTBALL ACADEMY</span>
+                        <img class="swiper1__slide_img" src="./images/slide.png" alt="slide1">
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper1__text_box">
+                          <p class="swiper1__slide_text">FOOTBALL ACADEMY предлагает отличную возможность для начала карьеры в Испании молодым футболистам с 14 до 20 лет, поступив в Академию футбола высокого уровня с проживанием и обучением в общеобразовательной школе при спортивном интернате Академии в Паленсии. В Академии каждого ждет индивидуальный подход к таланту игрока и его развитию.</p>
+                          <p class="swiper1__slide_text">В футбольной Академии Palencia Football Academy предусмотрены две программы пребывания. Долгосрочная программа – это полноценное годовое обучение и краткосрочная программа – трехмесячный курс обучения.</p>
+                        </div>
+                        <span class="swiper1__slide_title">FOOTBALL ACADEMY</span>
+                        <img class="swiper1__slide_img" src="./images/slide.png" alt="slide2">
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper1__text_box">
+                          <p class="swiper1__slide_text">FOOTBALL ACADEMY предлагает отличную возможность для начала карьеры в Испании молодым футболистам с 14 до 20 лет, поступив в Академию футбола высокого уровня с проживанием и обучением в общеобразовательной школе при спортивном интернате Академии в Паленсии. В Академии каждого ждет индивидуальный подход к таланту игрока и его развитию.</p>
+                          <p class="swiper1__slide_text">В футбольной Академии Palencia Football Academy предусмотрены две программы пребывания. Долгосрочная программа – это полноценное годовое обучение и краткосрочная программа – трехмесячный курс обучения.</p>
+                        </div>
+                        <span class="swiper1__slide_title">FOOTBALL ACADEMY</span>
+                        <img class="swiper1__slide_img" src="./images/slide.png" alt="slide3">
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="swiper1__text_box">
+                          <p class="swiper1__slide_text">FOOTBALL ACADEMY предлагает отличную возможность для начала карьеры в Испании молодым футболистам с 14 до 20 лет, поступив в Академию футбола высокого уровня с проживанием и обучением в общеобразовательной школе при спортивном интернате Академии в Паленсии. В Академии каждого ждет индивидуальный подход к таланту игрока и его развитию.</p>
+                          <p class="swiper1__slide_text">В футбольной Академии Palencia Football Academy предусмотрены две программы пребывания. Долгосрочная программа – это полноценное годовое обучение и краткосрочная программа – трехмесячный курс обучения.</p>
+                        </div>
+                        <span class="swiper1__slide_title">FOOTBALL ACADEMY</span>
+                        <img class="swiper1__slide_img" src="./images/slide.png" alt="slide4">
+                      </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              </div>
+            </section>
+            <section aria-labelledby="sectionHeader1" class="f-page__section">
+              <h2 id="sectionHeader1" class="f-page__swiper_title f-page__swiper_title1">Лучшие футболисты академии</h2>
+              <div class="f-form">
+                <div class="dropdown dropdown1">
+                  <button class="f__button">
+                    <span>Возраст</span>
+                    <svg class="icon">
+                      <use xlink:href="#arrow_up"></use>
+                    </svg>
+                  </button>
+                  <div class="dropdown__list">
+                    <div class="checkboxGroup">
+                      <input class="custom-checkbox" type="radio" name="checkboxGroup" id="filter1-1" value=""/>
+                      <label for="filter1-1">
+                        <span>Возраст</span>
+                      </label>
+                      <input class="custom-checkbox" type="radio" name="checkboxGroup" id="filter1-2" value=""/>
+                      <label for="filter1-2">
+                        <span>Возраст</span>
+                      </label>
+                      <input class="custom-checkbox" type="radio" name="checkboxGroup" id="filter1-3" value=""/>
+                      <label for="filter1-3">
+                        <span>Возраст</span>
+                      </label>
+                      <input class="custom-checkbox" type="radio" name="checkboxGroup" id="filter1-4" value=""/>
+                      <label for="filter1-4">
+                        <span>Возраст</span>
+                      </label>
+                      <input class="custom-checkbox" type="radio" name="checkboxGroup" id="filter1-5" value=""/>
+                      <label for="filter1-5">
+                        <span>Возраст</span>
+                      </label>
+                    </div>
+                  </div>
+              </div>
+              <div class="dropdown dropdown2">
+                <button class="f__button f__button1">
+                  <span>Чему хочу научиться</span>
+                  <svg class="icon">
+                    <use xlink:href="#arrow_up"></use>
+                  </svg>
+                </button>
+                <div class="dropdown__list1">
+                  <div class="checkboxGroup">
+                    <input class="custom-checkbox" type="checkbox" name="checkboxGroup" id="filter2-1" value=""/>
+                    <label for="filter2-1">
+                      <span>Навык</span>
+                    </label>
+                    <input class="custom-checkbox" type="checkbox" name="checkboxGroup" id="filter2-2" value=""/>
+                    <label for="filter2-2">
+                      <span>Навык</span>
+                    </label>
+                    <input class="custom-checkbox" type="checkbox" name="checkboxGroup" id="filter2-3" value=""/>
+                    <label for="filter2-3">
+                      <span>Навык</span>
+                    </label>
+                    <input class="custom-checkbox" type="checkbox" name="checkboxGroup" id="filter2-4" value=""/>
+                    <label for="filter2-4">
+                      <span>Навык</span>
+                    </label>
+                    <input class="custom-checkbox" type="checkbox" name="checkboxGroup" id="filter2-5" value=""/>
+                    <label for="filter2-5">
+                      <span>Навык</span>
+                    </label>
+                    <input class="custom-checkbox" type="checkbox" name="checkboxGroup" id="filter2-6" value=""/>
+                    <label for="filter2-6">
+                      <span>Навык</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="scills__block">
+               <button class="f__button f__button_rating">
+                  <span>Оцени свои навыки</span>
+                </button>
+                <div class="rating__scills">
+                  <div class="rating__scill">
+                    <h2 class="rating__title">Дриблинг</h2>
+                    <form>
+                    <div class="rating-area1">
+                      <input type="radio" id="star-5" name="rating" value="5">
+                      <label for="star-5" title="Оценка «5»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>	
+                      <input type="radio" id="star-4" name="rating" value="4">
+                      <label for="star-4" title="Оценка «4»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>    
+                      <input type="radio" id="star-3" name="rating" value="3">
+                      <label for="star-3" title="Оценка «3»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>  
+                      <input type="radio" id="star-2" name="rating" value="2">
+                      <label for="star-2" title="Оценка «2»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>    
+                      <input type="radio" id="star-1" name="rating" value="1">
+                      <label for="star-1" title="Оценка «1»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>
+                    </div>
+                    </form>
+                  </div> 
+                  <div class="rating__scill">
+                    <h2 class="rating__title">Пас</h2>
+                    <form>
+                    <div class="rating-area2">
+                      <input class="rating-area1_input" type="radio" id="star-2-5" name="rating" value="5">
+                      <label class="rating-area1_label" for="star-2-5" title="Оценка «5»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>	
+                      <input class="rating-area1_input" type="radio" id="star-2-4" name="rating" value="4">
+                      <label class="rating-area1_label" for="star-2-4" title="Оценка «4»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>    
+                      <input class="rating-area1_input" type="radio" id="star-2-3" name="rating" value="3">
+                      <label class="rating-area1_label" for="star-2-3" title="Оценка «3»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>  
+                      <input class="rating-area1_input" type="radio" id="star-2-2" name="rating" value="2">
+                      <label class="rating-area1_label" for="star-2-2" title="Оценка «2»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>    
+                      <input class="rating-area1_input"  type="radio" id="star-2-1" name="rating" value="1">
+                      <label class="rating-area1_label" for="star-2-1" title="Оценка «1»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>
+                    </div>
+                    </form>
+                  </div> 
+                  <div class="rating__scill">
+                    <h2 class="rating__title">Выносливость</h2>
+                    <form>
+                    <div class="rating-area3">
+                      <input type="radio" id="star-3-5" name="rating" value="5">
+                      <label for="star-3-5" title="Оценка «5»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>	
+                      <input type="radio" id="star-3-4" name="rating" value="4">
+                      <label for="star-3-4" title="Оценка «4»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>    
+                      <input type="radio" id="star-3-3" name="rating" value="3">
+                      <label for="star-3-3" title="Оценка «3»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>  
+                      <input type="radio" id="star-3-2" name="rating" value="2">
+                      <label for="star-3-2" title="Оценка «2»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>    
+                      <input type="radio" id="star-3-1" name="rating" value="1">
+                      <label for="star-3-1" title="Оценка «1»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>
+                    </div>
+                    </form>
+                  </div> 
+                  <div class="rating__scill">
+                    <h2 class="rating__title">Удар</h2>
+                    <form>
+                    <div class="rating-area4">
+                      <input type="radio" id="star-4-5" name="rating" value="5">
+                      <label for="star-4-5" title="Оценка «5»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>	
+                      <input type="radio" id="star-4-4" name="rating" value="4">
+                      <label for="star-4-4" title="Оценка «4»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>    
+                      <input type="radio" id="star-4-3" name="rating" value="3">
+                      <label for="star-4-3" title="Оценка «3»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>  
+                      <input type="radio" id="star-4-2" name="rating" value="2">
+                      <label for="star-4-2" title="Оценка «2»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>    
+                      <input type="radio" id="star-4-1" name="rating" value="1">
+                      <label for="star-4-1" title="Оценка «1»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>
+                    </div>
+                    </form>
+                  </div> 
+                  <div class="rating__scill">
+                    <h2 class="rating__title">Защита</h2>
+                    <form>
+                    <div class="rating-area5">
+                      <input type="radio" id="star-5-5" name="rating" value="5">
+                      <label for="star-5-5" title="Оценка «5»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>	
+                      <input type="radio" id="star-5-4" name="rating" value="4">
+                      <label for="star-5-4" title="Оценка «4»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>    
+                      <input type="radio" id="star-5-3" name="rating" value="3">
+                      <label for="star-5-3" title="Оценка «3»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>  
+                      <input type="radio" id="star-5-2" name="rating" value="2">
+                      <label for="star-5=2" title="Оценка «2»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>    
+                      <input type="radio" id="star-5-1" name="rating" value="1">
+                      <label for="star-5-1" title="Оценка «1»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>
+                    </div>
+                    </form>
+                  </div> 
+                  <div class="rating__scill">
+                    <h2 class="rating__title">Навес</h2>
+                    <form>
+                    <div class="rating-area6">
+                      <input type="radio" id="star-6-5" name="rating" value="5">
+                      <label for="star-6-5" title="Оценка «5»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>	
+                      <input type="radio" id="star-6-4" name="rating" value="4">
+                      <label for="star-6-4" title="Оценка «4»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>    
+                      <input type="radio" id="star-6-3" name="rating" value="3">
+                      <label for="star-6-3" title="Оценка «3»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>  
+                      <input type="radio" id="star-6-2" name="rating" value="2">
+                      <label for="star-6-2" title="Оценка «2»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>    
+                      <input type="radio" id="star-6-1" name="rating" value="1">
+                      <label for="star-6-1" title="Оценка «1»">
+                        <svg class="icon">
+                          <use xlink:href="#empty_star"></use>
+                        </svg>
+                      </label>
+                    </div>
+                    </form>
+                  </div> 
+
+                </div>  
+              </div>                
+                      <form action="#" class="f__block_info f__form">
+                          <div class="form__field">
+                            <label for="nameField">Имя</label>
+                            <input id="nameField" type="text" name="name" placeholder="Имя" required />
+                          </div>
+                          <div class="form__field">
+                            <label for="emailField">Email</label>
+                            <input id="emailField" type="email" name="name" placeholder="E-Mail" />
+                            <span class="form__error">Это поле должно содержать E-Mail в формате example@site.com</span>
+                          </div>
+                          <div class="form__field">
+                            <label for="telField">Телефон</label>
+                            <input id="telField" type="tel" name="name" placeholder="+7" pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18" />
+                            <span class="form__error">Это поле должно содержать телефон в формате +7 (123) 456-78-90</span>
+                          </div>
+                          <input class="custom-checkbox1" type="checkbox" name="checkboxGroup" id="check1" value="">
+                          <label for="check1">
+                            <span>Я соглашаюсь с политикой персональных даных</span>
+                          </label>
+                          <button class="submit__button" type="submit" value="Отправить"><span>Отправить</span></button>
+                      </form>
+
+              </div>
+            </section>
+            <section aria-labelledby="sectionHeader2" class="f-page__swiper2">
+              <h2 id="sectionHeader2" class="f-page__swiper_title">Лучшие футболисты академии</h2>
+              <div class="swiper swiper2 swiper-container">
+              <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <img class="swiper__slide_img" src="./images/player1.png" alt="player1">
+                          <p class="swiper__slide_name">Миша Поляков</p>
+                          <p class="swiper__slide_age">12 лет</p>
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./images/player2.png" alt="player2">
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./images/player3.png" alt="player3">
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./images/player4.png" alt="player4">
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="./images/player5.png" alt="player5">
+                      </div>
+              </div>
+              </div>
+            </section>
+            <section aria-labelledby="sectionHeader3" class="f-page__swiper3">
+              <h2 id="sectionHeader3" class="f-page__swiper_title">Лучшие моменты</h2>
+              <div class="swiper swiper3 swiper-container">
+              <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="icon__video">
+                          <img src="./images/slide_video.png" alt="video1">
+                          <svg class="icon">
+                            <use xlink:href="#video"></use>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="icon__video">
+                          <img src="./images/slide_video.png" alt="video2">
+                          <svg class="icon">
+                            <use xlink:href="#video"></use>
+                          </svg>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="icon__video">
+                          <img src="./images/slide_video.png" alt="video3">
+                          <svg class="icon">
+                            <use xlink:href="#video"></use>
+                          </svg>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="icon__video">
+                          <img src="./images/slide_video.png" alt="video4">
+                          <svg class="icon">
+                            <use xlink:href="#video"></use>
+                          </svg>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="icon__video">
+                          <img src="./images/slide_video.png" alt="video5">
+                          <svg class="icon">
+                            <use xlink:href="#video"></use>
+                          </svg>
+                        </div>
+                      </div>
+              </div>
+              </div>
+            </section>
+          </main>
+          <footer class="f-page__footer">
+            <div class="f-page__footer_block inner">
+            <div class="f-page__footer_row f-page__footer_row1">
+                <div class="f-page__footer_col">
+                  <span class="footer__item"><a href="#">Products</a></span>
+                  <div class="footer__links">
+                    <span class="footer__link"><a href="#">Features</a></span>
+                    <span class="footer__link"><a href="#">Integrations</a></span>
+                    <span class="footer__link"><a href="#">Interprise</a></span>
+                    <span class="footer__link"><a href="#">Solutions</a></span>
+                  </div>
+                </div>
+                <div class="f-page__footer_col">
+                  <span class="footer__item"><a href="#">Products</a></span>
+                  <div class="footer__links">
+                    <span class="footer__link"><a href="#">Features</a></span>
+                    <span class="footer__link"><a href="#">Integrations</a></span>
+                    <span class="footer__link"><a href="#">Interprise</a></span>
+                    <span class="footer__link"><a href="#">Solutions</a></span>
+                  </div>
+                </div>
+                <div class="f-page__footer_col">
+                  <span class="footer__item"><a href="#">Products</a></span>
+                  <div class="footer__links">
+                    <span class="footer__link"><a href="#">Features</a></span>
+                    <span class="footer__link"><a href="#">Integrations</a></span>
+                    <span class="footer__link"><a href="#">Interprise</a></span>
+                    <span class="footer__link"><a href="#">Solutions</a></span>
+                  </div>
+                </div>
+                <div class="f-page__footer_col">
+                  <span class="footer__item"><a href="#">Products</a></span>
+                  <div class="footer__links">
+                    <span class="footer__link"><a href="#">Features</a></span>
+                    <span class="footer__link"><a href="#">Integrations</a></span>
+                    <span class="footer__link"><a href="#">Interprise</a></span>
+                    <span class="footer__link"><a href="#">Solutions</a></span>
+                  </div>
+                </div>
+                <div class="f-page__footer_col">
+                  <span class="footer__item"><a href="#">Products</a></span>
+                  <div class="footer__links">
+                    <span class="footer__link"><a href="#">Features</a></span>
+                    <span class="footer__link"><a href="#">Integrations</a></span>
+                    <span class="footer__link"><a href="#">Interprise</a></span>
+                    <span class="footer__link"><a href="#">Solutions</a></span>
+                  </div>
+                </div>
+            </div>
+            <div class="f-page__footer_row f-page__footer_row2">
+              <div class="f-page__footer_col">
+                <a class="f-link__menu" href="/">
+                  <svg class="logo_white">
+                    <use xlink:href="#logo_white"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="f-page__footer_col">
+                <span class="copyright"><a href="/">© 2023 Football. All Rights Reserved.</a></span>
+              </div>
+              <div class="f-page__footer_icons">
+                <a href="#">
+                  <svg class="icon">
+                    <use xlink:href="#fb"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="icon">
+                    <use xlink:href="#g"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="icon">
+                    <use xlink:href="#ap"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="icon">
+                    <use xlink:href="#inst"></use>
+                  </svg>
+                </a>
+              </div>
+          </div>
+            </div>
+          </footer>
+          <!-- Скрытый SVG-спрайт -->
+          <svg width="0" height="0" class="hidden">
+            <symbol fill="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" id="empty_star">
+              <path id="empty_star" d="M11.4417 2.92471L12.9083 5.85804C13.1083 6.26637 13.6417 6.65804 14.0917 6.73304L16.75 7.17471C18.45 7.45804 18.85 8.69137 17.625 9.90804L15.5583 11.9747C15.2083 12.3247 15.0167 12.9997 15.125 13.483L15.7167 16.0414C16.1833 18.0664 15.1083 18.8497 13.3167 17.7914L10.825 16.3164C10.375 16.0497 9.63332 16.0497 9.17499 16.3164L6.68332 17.7914C4.89999 18.8497 3.81665 18.058 4.28332 16.0414L4.87499 13.483C4.98332 12.9997 4.79165 12.3247 4.44165 11.9747L2.37499 9.90804C1.15832 8.69137 1.54999 7.45804 3.24999 7.17471L5.90832 6.73304C6.34999 6.65804 6.88332 6.26637 7.08332 5.85804L8.54999 2.92471C9.34999 1.33304 10.65 1.33304 11.4417 2.92471Z" fill="" stroke="" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"></path>
+            </symbol>
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" id="arrow_up">
+              <path id="arrow_up" fill-rule="evenodd" clip-rule="evenodd" d="M10.0084 8.56205L14.2311 13.6394C14.5843 14.064 15.2148 14.122 15.6394 13.7688C16.064 13.4157 16.122 12.7852 15.7688 12.3605L10.7787 6.36057C10.3794 5.88043 9.64255 5.87971 9.24229 6.35908L4.23242 12.3591C3.87845 12.783 3.93516 13.4136 4.35909 13.7676C4.78302 14.1215 5.41364 14.0648 5.76762 13.6409L10.0084 8.56205Z" fill="#0D99E7"></path>
+            </symbol>
+            <symbol fill="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="essential">
+              <path d="M12 18.75C11.59 18.75 11.25 18.41 11.25 18V15C11.25 14.59 11.59 14.25 12 14.25C12.41 14.25 12.75 14.59 12.75 15V18C12.75 18.41 12.41 18.75 12 18.75Z" fill="" fill-opacity=""></path>
+              <path d="M17.6 22.56H6.40002C4.58002 22.56 2.92002 21.16 2.62002 19.37L1.29002 11.4C1.07002 10.16 1.68002 8.57001 2.67002 7.78001L9.60002 2.23001C10.94 1.15001 13.05 1.16001 14.4 2.24001L21.33 7.78001C22.31 8.57001 22.91 10.16 22.71 11.4L21.38 19.36C21.08 21.13 19.38 22.56 17.6 22.56ZM11.99 2.93001C11.46 2.93001 10.93 3.09001 10.54 3.40001L3.61002 8.96001C3.05002 9.41001 2.65002 10.45 2.77002 11.16L4.10002 19.12C4.28002 20.17 5.33002 21.06 6.40002 21.06H17.6C18.67 21.06 19.72 20.17 19.9 19.11L21.23 11.15C21.34 10.45 20.94 9.39001 20.39 8.95001L13.46 3.41001C13.06 3.09001 12.52 2.93001 11.99 2.93001Z" fill="" fill-opacity=""></path>
+            </symbol>
+
+            <!-- fb -->
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24" id="fb">
+              <path id="fb" d="M24.5 12C24.5 5.37258 19.1274 0 12.5 0C5.87258 0 0.5 5.37258 0.5 12C0.5 17.9895 4.8882 22.954 10.625 23.8542V15.4688H7.57812V12H10.625V9.35625C10.625 6.34875 12.4166 4.6875 15.1576 4.6875C16.4701 4.6875 17.8438 4.92188 17.8438 4.92188V7.875H16.3306C14.84 7.875 14.375 8.80008 14.375 9.75V12H17.7031L17.1711 15.4688H14.375V23.8542C20.1118 22.954 24.5 17.9895 24.5 12Z" fill="white"></path>
+            </symbol>
+
+            <!-- g -->
+
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24" id="g">
+              <path d="M24.2628 12.276C24.2628 11.4603 24.1966 10.6401 24.0555 9.83765H12.7368V14.4586H19.2185C18.9495 15.949 18.0853 17.2674 16.8198 18.1051V21.1035H20.6868C22.9576 19.0135 24.2628 15.9269 24.2628 12.276Z" fill="white"></path>
+              <path d="M12.7373 24.0002C15.9737 24.0002 18.7031 22.9376 20.6917 21.1033L16.8247 18.1049C15.7488 18.8369 14.3599 19.2514 12.7417 19.2514C9.61105 19.2514 6.95663 17.1393 6.00421 14.2997H2.01376V17.3906C4.05088 21.4428 8.20006 24.0002 12.7373 24.0002Z" fill="white"></path>
+              <path d="M5.99972 14.3002C5.49706 12.8099 5.49706 11.196 5.99972 9.70569V6.61475H2.01368C0.311682 10.0055 0.311682 14.0004 2.01368 17.3912L5.99972 14.3002Z" fill="white"></path>
+              <path d="M12.7373 4.74954C14.4481 4.72308 16.1016 5.36684 17.3406 6.54855L20.7667 3.12249C18.5973 1.08538 15.718 -0.0345881 12.7373 0.000686596C8.20009 0.000686596 4.05091 2.5581 2.01379 6.61469L5.99983 9.70563C6.94784 6.86161 9.60667 4.74954 12.7373 4.74954Z" fill="white"></path>
+            </symbol>
+
+            <!-- app -->
+
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24" id="ap">
+              <path d="M22.1841 18.7033C21.8212 19.5418 21.3916 20.3136 20.8938 21.0232C20.2153 21.9906 19.6598 22.6602 19.2316 23.032C18.568 23.6424 17.8569 23.955 17.0954 23.9728C16.5488 23.9728 15.8895 23.8172 15.1221 23.5017C14.3522 23.1876 13.6447 23.032 12.9978 23.032C12.3193 23.032 11.5916 23.1876 10.8132 23.5017C10.0337 23.8172 9.40573 23.9816 8.9256 23.9979C8.1954 24.0291 7.46757 23.7076 6.74108 23.032C6.27739 22.6276 5.69741 21.9343 5.00262 20.9521C4.25716 19.9033 3.64429 18.687 3.16416 17.3004C2.64995 15.8026 2.39218 14.3523 2.39218 12.9482C2.39218 11.3398 2.73973 9.95259 3.43585 8.79011C3.98294 7.85636 4.71077 7.11979 5.62171 6.57906C6.53264 6.03834 7.51691 5.76279 8.57687 5.74516C9.15685 5.74516 9.91742 5.92456 10.8626 6.27715C11.8051 6.63091 12.4102 6.81032 12.6756 6.81032C12.8739 6.81032 13.5462 6.60054 14.6859 6.18233C15.7636 5.79449 16.6732 5.63391 17.4184 5.69716C19.4376 5.86012 20.9545 6.6561 21.9634 8.09013C20.1575 9.18432 19.2642 10.7169 19.282 12.6829C19.2983 14.2142 19.8538 15.4886 20.9457 16.5004C21.4405 16.97 21.993 17.333 22.6078 17.5907C22.4745 17.9774 22.3338 18.3477 22.1841 18.7033ZM17.5532 0.480137C17.5532 1.68041 17.1147 2.8011 16.2406 3.8384C15.1858 5.07155 13.91 5.78412 12.5265 5.67168C12.5089 5.52769 12.4987 5.37614 12.4987 5.21688C12.4987 4.06462 13.0003 2.83147 13.8911 1.82321C14.3358 1.3127 14.9014 0.888228 15.5873 0.549615C16.2717 0.216055 16.9191 0.031589 17.528 0C17.5458 0.160458 17.5532 0.320926 17.5532 0.480121V0.480137Z" fill="white"></path>
+            </symbol>
+
+            <!-- inst -->
+
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 24" id="inst">
+              <path d="M17.3503 0H7.64973C3.70735 0 0.5 3.20735 0.5 7.14973V16.8503C0.5 20.7926 3.70735 24 7.64973 24H17.3503C21.2926 24 24.5 20.7926 24.5 16.8503V7.14973C24.5 3.20735 21.2926 0 17.3503 0ZM22.0856 16.8503C22.0856 19.4655 19.9655 21.5856 17.3503 21.5856H7.64973C5.0345 21.5856 2.9144 19.4655 2.9144 16.8503V7.14973C2.9144 4.53446 5.0345 2.4144 7.64973 2.4144H17.3503C19.9655 2.4144 22.0856 4.53446 22.0856 7.14973V16.8503Z" fill="white"></path>
+              <path d="M12.5 5.79272C9.07729 5.79272 6.29272 8.57729 6.29272 11.9999C6.29272 15.4226 9.07729 18.2072 12.5 18.2072C15.9227 18.2072 18.7072 15.4226 18.7072 11.9999C18.7072 8.57725 15.9227 5.79272 12.5 5.79272ZM12.5 15.7928C10.4052 15.7928 8.70712 14.0947 8.70712 12C8.70712 9.90523 10.4053 8.20712 12.5 8.20712C14.5947 8.20712 16.2928 9.90523 16.2928 12C16.2928 14.0947 14.5947 15.7928 12.5 15.7928Z" fill="white"></path>
+              <path d="M18.719 7.32673C19.5405 7.32673 20.2064 6.66083 20.2064 5.83939C20.2064 5.01796 19.5405 4.35205 18.719 4.35205C17.8976 4.35205 17.2317 5.01796 17.2317 5.83939C17.2317 6.66083 17.8976 7.32673 18.719 7.32673Z" fill="white"></path>
+            </symbol>
+
+            <!-- logo white -->
+
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 21" id="logo_white">
+              <path id="logo_base" d="M13.5932 0.180663V3.34067H4.22405V8.33015H13.122V11.6149H4.18247V20H0.578951V0.180663H13.5932ZM19.83 10.0349C19.83 14.6455 21.8767 16.9509 25.9699 16.9509C29.9615 16.9509 31.9573 14.6455 31.9573 10.0349C31.9573 5.49816 29.9615 3.22979 25.9699 3.22979C21.8767 3.22979 19.83 5.49816 19.83 10.0349ZM16.0186 10.1181C16.0186 3.40073 19.3357 0.0420663 25.9699 0.0420663C32.5024 0.0420663 35.7687 3.40073 35.7687 10.1181C35.7687 16.7984 32.5024 20.1386 25.9699 20.1386C19.6314 20.1386 16.3143 16.7984 16.0186 10.1181ZM42.3659 10.0349C42.3659 14.6455 44.4125 16.9509 48.5057 16.9509C52.4973 16.9509 54.4931 14.6455 54.4931 10.0349C54.4931 5.49816 52.4973 3.22979 48.5057 3.22979C44.4125 3.22979 42.3659 5.49816 42.3659 10.0349ZM38.5545 10.1181C38.5545 3.40073 41.8715 0.0420663 48.5057 0.0420663C55.0382 0.0420663 58.3045 3.40073 58.3045 10.1181C58.3045 16.7984 55.0382 20.1386 48.5057 20.1386C42.1672 20.1386 38.8501 16.7984 38.5545 10.1181ZM74.7421 0.180663V3.36839H69.0596V20H65.3868V3.36839H59.7043V0.180663H74.7421ZM80.1612 16.6321C81.002 16.9001 81.9768 17.034 83.0856 17.034C85.3031 17.034 86.4119 15.4679 86.4119 12.3356C86.4119 9.77618 85.4556 8.49647 83.543 8.49647C82.3048 8.49647 81.1776 8.74594 80.1612 9.24489V16.6321ZM76.4884 0.180663H80.1612V6.55611C81.2607 5.81693 82.485 5.44734 83.834 5.44734C87.9734 5.44734 90.0432 7.77577 90.0432 12.4326C90.0432 17.4775 87.6732 20 82.9331 20C80.9374 20 78.7891 19.8013 76.4884 19.404V0.180663ZM92.1221 15.4679C92.1221 12.5758 94.2288 11.1298 98.4421 11.1298C99.4308 11.1298 100.419 11.2222 101.408 11.407V10.3121C101.408 9.00928 100.47 8.35787 98.5946 8.35787C97.0053 8.35787 95.2405 8.58887 93.3002 9.05086V6.14032C95.2405 5.67833 97.0053 5.44734 98.5946 5.44734C102.919 5.44734 105.081 7.04582 105.081 10.2428V20H102.947L101.644 18.6972C100.378 19.5657 98.9826 20 97.4581 20C93.9008 20 92.1221 18.4893 92.1221 15.4679ZM101.408 13.9017C100.484 13.7169 99.4955 13.6245 98.4421 13.6245C96.6773 13.6245 95.7949 14.2251 95.7949 15.4263C95.7949 16.7199 96.5341 17.3667 98.0125 17.3667C99.2321 17.3667 100.364 16.9878 101.408 16.2302V13.9017ZM112.232 0.180663V20H108.56V0.180663H112.232ZM119.384 0.180663V20H115.711V0.180663H119.384Z" fill="white"></path>
+            </symbol>
+
+            <!-- logo blue -->
+
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 119 21" id="logo_blue">
+              <path d="M13.0932 0.180663V3.34067H3.72405V8.33015H12.622V11.6149H3.68247V20H0.0789514V0.180663H13.0932ZM19.33 10.0349C19.33 14.6455 21.3767 16.9509 25.4699 16.9509C29.4615 16.9509 31.4573 14.6455 31.4573 10.0349C31.4573 5.49816 29.4615 3.22979 25.4699 3.22979C21.3767 3.22979 19.33 5.49816 19.33 10.0349ZM15.5186 10.1181C15.5186 3.40073 18.8357 0.0420663 25.4699 0.0420663C32.0024 0.0420663 35.2687 3.40073 35.2687 10.1181C35.2687 16.7984 32.0024 20.1386 25.4699 20.1386C19.1314 20.1386 15.8143 16.7984 15.5186 10.1181ZM41.8659 10.0349C41.8659 14.6455 43.9125 16.9509 48.0057 16.9509C51.9973 16.9509 53.9931 14.6455 53.9931 10.0349C53.9931 5.49816 51.9973 3.22979 48.0057 3.22979C43.9125 3.22979 41.8659 5.49816 41.8659 10.0349ZM38.0545 10.1181C38.0545 3.40073 41.3715 0.0420663 48.0057 0.0420663C54.5382 0.0420663 57.8045 3.40073 57.8045 10.1181C57.8045 16.7984 54.5382 20.1386 48.0057 20.1386C41.6672 20.1386 38.3501 16.7984 38.0545 10.1181ZM74.2421 0.180663V3.36839H68.5596V20H64.8868V3.36839H59.2043V0.180663H74.2421Z" fill="#0D99E7"></path>
+              <path d="M79.6612 16.6321C80.502 16.9001 81.4768 17.034 82.5856 17.034C84.8031 17.034 85.9119 15.4679 85.9119 12.3356C85.9119 9.77618 84.9556 8.49647 83.043 8.49647C81.8048 8.49647 80.6776 8.74594 79.6612 9.24489V16.6321ZM75.9884 0.180663H79.6612V6.55611C80.7607 5.81693 81.985 5.44734 83.334 5.44734C87.4734 5.44734 89.5432 7.77577 89.5432 12.4326C89.5432 17.4775 87.1732 20 82.4331 20C80.4374 20 78.2891 19.8013 75.9884 19.404V0.180663ZM91.6221 15.4679C91.6221 12.5758 93.7288 11.1298 97.9421 11.1298C98.9308 11.1298 99.9194 11.2222 100.908 11.407V10.3121C100.908 9.00928 99.9703 8.35787 98.0946 8.35787C96.5053 8.35787 94.7405 8.58887 92.8002 9.05086V6.14032C94.7405 5.67833 96.5053 5.44734 98.0946 5.44734C102.419 5.44734 104.581 7.04582 104.581 10.2428V20H102.447L101.144 18.6972C99.8779 19.5657 98.4826 20 96.9581 20C93.4008 20 91.6221 18.4893 91.6221 15.4679ZM100.908 13.9017C99.9841 13.7169 98.9955 13.6245 97.9421 13.6245C96.1773 13.6245 95.2949 14.2251 95.2949 15.4263C95.2949 16.7199 96.0341 17.3667 97.5125 17.3667C98.7321 17.3667 99.864 16.9878 100.908 16.2302V13.9017ZM111.732 0.180663V20H108.06V0.180663H111.732ZM118.884 0.180663V20H115.211V0.180663H118.884Z" fill="white"></path>
+            </symbol>
+
+            <!-- video -->
+
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 46" id="video">
+              <path d="M7.66669 23.0004V16.177C7.66669 7.70537 13.6659 4.2362 21.0067 8.47204L26.9292 11.8837L32.8517 15.2954C40.1925 19.5312 40.1925 26.4695 32.8517 30.7054L26.9292 34.117L21.0067 37.5287C13.6659 41.7645 7.66669 38.2954 7.66669 29.8237V23.0004Z" fill="#D9D9D9"></path>
+            </symbol>
+
+          </svg>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
